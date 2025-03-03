@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[TC passed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-02-28T19:49:57 IST" name="Suite" finished-at="2025-02-28T19:50:14 IST" duration-ms="17061">
+  <suite started-at="2025-03-03T19:56:13 IST" name="Default suite" finished-at="2025-03-03T19:56:20 IST" duration-ms="7451">
     <groups>
     </groups>
-    <test started-at="2025-02-28T19:49:57 IST" name="Test1" finished-at="2025-02-28T19:50:13 IST" duration-ms="15702">
-      <class name="parallelTest.ClassB">
-        <test-method signature="test2()[pri:0, instance:parallelTest.ClassB@1189dd52]" started-at="2025-02-28T19:49:57 IST" name="test2" finished-at="2025-02-28T19:50:13 IST" duration-ms="15574" status="PASS">
+    <test started-at="2025-03-03T19:56:13 IST" name="Default test" finished-at="2025-03-03T19:56:20 IST" duration-ms="7451">
+      <class name="Assert.SoftAssertClass">
+        <test-method signature="test()[pri:0, instance:Assert.SoftAssertClass@72057ecf]" started-at="2025-03-03T19:56:13 IST" name="test" finished-at="2025-03-03T19:56:20 IST" duration-ms="7231" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[TC passed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- parallelTest.ClassB -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-02-28T19:49:57 IST" name="Test" finished-at="2025-02-28T19:50:14 IST" duration-ms="17061">
-      <class name="parallelTest.ClassA">
-        <test-method signature="test1()[pri:0, instance:parallelTest.ClassA@72057ecf]" started-at="2025-02-28T19:49:57 IST" name="test1" finished-at="2025-02-28T19:50:14 IST" duration-ms="16973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- parallelTest.ClassA -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- Assert.SoftAssertClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

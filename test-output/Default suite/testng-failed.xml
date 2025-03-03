@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGPractice.DependsOnMethod1">
+      <class name="Assert.HardAsseert">
         <methods>
-          <include name="launch"/>
-          <include name="logout"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- TestNGPractice.DependsOnMethod1 -->
+      </class> <!-- Assert.HardAsseert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
