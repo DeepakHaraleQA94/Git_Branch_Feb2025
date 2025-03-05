@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[TC passed]]>
+      <![CDATA[text matched]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credential]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-03T19:56:13 IST" name="Default suite" finished-at="2025-03-03T19:56:20 IST" duration-ms="7451">
+  <suite started-at="2025-03-05T20:26:38 IST" name="Default suite" finished-at="2025-03-05T20:27:08 IST" duration-ms="30587">
     <groups>
     </groups>
-    <test started-at="2025-03-03T19:56:13 IST" name="Default test" finished-at="2025-03-03T19:56:20 IST" duration-ms="7451">
-      <class name="Assert.SoftAssertClass">
-        <test-method signature="test()[pri:0, instance:Assert.SoftAssertClass@72057ecf]" started-at="2025-03-03T19:56:13 IST" name="test" finished-at="2025-03-03T19:56:20 IST" duration-ms="7231" status="PASS">
+    <test started-at="2025-03-05T20:26:38 IST" name="Default test" finished-at="2025-03-05T20:27:08 IST" duration-ms="30587">
+      <class name="TestClass.LoginTestPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass.LoginTestPage@1d9b7cce]" started-at="2025-03-05T20:26:38 IST" name="setUp" finished-at="2025-03-05T20:26:48 IST" duration-ms="10524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPage()[pri:1, instance:TestClass.LoginTestPage@1d9b7cce]" started-at="2025-03-05T20:26:48 IST" name="verifyLoginPage" finished-at="2025-03-05T20:26:55 IST" duration-ms="6243" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[TC passed]]>
+              <![CDATA[text matched]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- Assert.SoftAssertClass -->
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.LoginTestPage@1d9b7cce]" started-at="2025-03-05T20:26:55 IST" name="tearDown" finished-at="2025-03-05T20:26:55 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass.LoginTestPage@1d9b7cce]" started-at="2025-03-05T20:26:55 IST" name="setUp" finished-at="2025-03-05T20:27:02 IST" duration-ms="7090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateInvalidCredential()[pri:2, instance:TestClass.LoginTestPage@1d9b7cce]" started-at="2025-03-05T20:27:02 IST" name="validateInvalidCredential" finished-at="2025-03-05T20:27:08 IST" duration-ms="5667" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credential]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateInvalidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.LoginTestPage@1d9b7cce]" started-at="2025-03-05T20:27:08 IST" name="tearDown" finished-at="2025-03-05T20:27:08 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.LoginTestPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
