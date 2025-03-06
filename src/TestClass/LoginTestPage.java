@@ -8,11 +8,14 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import POM.LoginPage;
 import TesBase.testBaseClass;
+import TestListnerClass.listner;
 
+@Listeners(listner.class)
 public class LoginTestPage extends testBaseClass {
 	
 	public LoginTestPage() throws IOException {
@@ -33,7 +36,7 @@ public class LoginTestPage extends testBaseClass {
 		Thread.sleep(3000);
 		WebElement text = driver.findElement(By.xpath("//h1[text()='Welcome to JALA Academy']"));
 		String homeText = text.getText();
-		Assert.assertEquals(homeText, "Welcome to JALA Academy", "text not matched");
+		Assert.assertEquals(homeText, "Welcome to JALA Academy123", "text not matched");
 		Reporter.log("text matched", true);
 		
 	}
