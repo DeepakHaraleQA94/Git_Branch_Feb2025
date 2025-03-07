@@ -8,8 +8,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import parallelTest.listenrtest;
-@Listeners(listenrtest.class)
+//import parallelTest.listenrtest;
+//@Listeners(listenrtest.class)
 public class HardAsseert {
 
 	
