@@ -14,7 +14,7 @@ public class testBaseClass {
 public static WebDriver driver;
 public testBaseClass() throws IOException{
 	 prop = new Properties();
-	FileInputStream file = new FileInputStream("C:\\Users\\Sarvadnya\\eclipse-workspace\\Selenium_Jala_Feb_2025\\src\\propertyFile\\config.properties");
+	FileInputStream file = new FileInputStream("C:\\Users\\Sarvadnya\\eclipse-workspace\\slenium_GitFeb2025\\Git_Branch_Feb2025\\src\\propertyFile\\config.properties");
     prop.load(file);
 
 }
